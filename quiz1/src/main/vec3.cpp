@@ -19,7 +19,7 @@
 #include <cmath>
 #include <iostream>
 simphys::vec3::vec3(float x_, float y_, float z_) 
-  : x(x_), y(y_), z(z_) {
+  : x{x_}, y{y_}, z{z_} {
   // TODO - make sure you understand what this notation for a
   // constructor is doing. If you haven't seen this before, bring it
   // up on Piazza and we can talk about initializer lists.
@@ -27,7 +27,7 @@ simphys::vec3::vec3(float x_, float y_, float z_)
 
 float simphys::vec3::norm() const {
   // TODO - fill in implementation for quiz 1.
-  return sqrt(x*x + y*y + z*z);
+  return sqrtf(x*x + y*y + z*z);
 }
 
 float simphys::vec3::norm_sq() const {

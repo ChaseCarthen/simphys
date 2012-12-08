@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall -std=c++0x    CMakeFiles/tests.dir/src/test/test_clock.cpp.o CMakeFiles/tests.dir/src/main/clock.cpp.o ../src/main/rk_clock.o  -o ../bin/tests -rdynamic gtest-1.6.0/libgtest_main.a gtest-1.6.0/libgtest.a -lpthread 

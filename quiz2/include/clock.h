@@ -46,6 +46,10 @@ namespace simphys {
     */
     Clock(float startTime);
 
+    // getter and setter for freq
+    void setFreq(float newFreq);
+    float getFreq() const;
+
     // getter and setter for timeScale
     void setScale(float newScale);
     float getScale() const;
